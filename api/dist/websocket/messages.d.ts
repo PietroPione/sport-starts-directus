@@ -85,11 +85,11 @@ export declare const BasicAuthMessage: z.ZodUnion<[z.ZodObject<{
     email: z.ZodString;
     password: z.ZodString;
 }, "strip", z.ZodTypeAny, {
-    password: string;
     email: string;
+    password: string;
 }, {
-    password: string;
     email: string;
+    password: string;
 }>, z.ZodObject<{
     access_token: z.ZodString;
 }, "strip", z.ZodTypeAny, {
@@ -123,11 +123,11 @@ export declare const WebSocketAuthMessage: z.ZodIntersection<z.ZodObject<z.objec
     email: z.ZodString;
     password: z.ZodString;
 }, "strip", z.ZodTypeAny, {
-    password: string;
     email: string;
+    password: string;
 }, {
-    password: string;
     email: string;
+    password: string;
 }>, z.ZodObject<{
     access_token: z.ZodString;
 }, "strip", z.ZodTypeAny, {

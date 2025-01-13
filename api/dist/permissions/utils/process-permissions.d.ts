@@ -5,8 +5,8 @@ export interface ProcessPermissionsOptions {
     permissionsContext: Record<string, any>;
 }
 export declare function processPermissions({ permissions, accountability, permissionsContext }: ProcessPermissionsOptions): {
-    permissions: any;
-    validation: any;
+    permissions: import("@directus/types").Filter | null;
+    validation: import("@directus/types").Filter | null;
     presets: any;
     id?: number;
     policy: string | null;

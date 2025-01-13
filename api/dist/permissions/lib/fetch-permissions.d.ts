@@ -8,8 +8,8 @@ export interface FetchPermissionsOptions {
     bypassDynamicVariableProcessing?: boolean;
 }
 export declare function fetchPermissions(options: FetchPermissionsOptions, context: Context): Promise<{
-    permissions: any;
-    validation: any;
+    permissions: import("@directus/types").Filter | null;
+    validation: import("@directus/types").Filter | null;
     presets: any;
     id?: number;
     policy: string | null;
