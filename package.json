@@ -39,6 +39,7 @@
 		"pnpm": "9"
 	},
 	"dependencies": {
-		"@directus/extensions-sdk": "12.1.4"
+		"@directus/extensions-sdk": "12.1.4",
+		"vue-router": "4.5.0"
 	}
 }
