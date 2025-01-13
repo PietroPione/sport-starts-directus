@@ -46,6 +46,7 @@
 		"@directus/constants": "12.0.1",
 		"@directus/exceptions": "10.0.3",
 		"@directus/extensions-sdk": "12.1.4",
+		"@directus/format-title": "11.0.0",
 		"@directus/memory": "2.0.6",
 		"@directus/sdk": "18.0.3",
 		"@directus/storage": "11.0.1",
